@@ -41,10 +41,10 @@ function CreateCourse() {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
-    mutation.mutate({
-      title: formData.get("title") as string,
-      description: formData.get("description") as string,
-    });
+    //mutation.mutate({
+      //title: formData.get("title") as string,
+      //description: formData.get("description") as string,
+    //});
   };
 
   return (
@@ -61,6 +61,7 @@ function CreateCourse() {
               name="title"
               placeholder="Title"
               className="input input-primary rounded-none"
+              disabled
             />
           </label>
 
@@ -73,10 +74,11 @@ function CreateCourse() {
               placeholder="Description"
               rows={10}
               className="textarea textarea-primary rounded-none"
+              disabled
             />
           </label>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary" disabled>
             Create
           </button>
         </div>
