@@ -30,6 +30,7 @@ export const routes: Route<LocationGenerics>[] = [
       );
     },
   },
+  /*
   {
     path: "admin",
     element: <Admin />,
@@ -69,3 +70,4 @@ export const routes: Route<LocationGenerics>[] = [
     ],
   },
 ];
+*/
