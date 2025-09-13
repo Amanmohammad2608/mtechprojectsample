@@ -20,13 +20,13 @@ function Dashboard() {
         <Banner />
         <div className="mx-auto max-w-4xl py-8 text-center">
           <Text>
-            <h2>{"There's nothing here..."}</h2>
+            <h2>{"Courses will be listed here"}</h2>
             <p>
               Enrolled courses will appear here, click below button to contact
               the academy.
             </p>
             <a
-              href="mailto:kona@konamars.com"
+              href="mailto:mdaman8639@gmail.com"
               className="btn btn-primary capitalize"
             >
               Enroll Me!
