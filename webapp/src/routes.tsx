@@ -69,5 +69,5 @@ export const routes: Route<LocationGenerics>[] = [
       },
     ],
   },
-];
 */
+];
