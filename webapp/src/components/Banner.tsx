@@ -5,7 +5,7 @@ function Banner() {
     >
       <div className="text-center">
         <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-          WELCOME TO BITS PILANI LMS !
+          WELCOME TO MTECH PROGRAM !
         </h1>
       </div>
     </div>
